@@ -4,7 +4,7 @@ Create a webpage that allows the user to enter a password two times in order to 
 
 Two password fields o first to enter the password and a second to verify it
 A button labelled "Validate" that alerts one of the following messages:
-Display informative error message if any of the following occur: ▪ the passwords entered don't match ▪ the passwords are not at least 8 characters long
+Display informative error message if any of the following occur: the passwords entered don't match the passwords are not at least 8 characters long
 
 Exercise 2
 Create a new webpage that has a single img tag and two buttons labeled previous and next. Your slideshow should.
