@@ -1,0 +1,49 @@
+
+body {
+  background-color: lavender;
+  background-size: 100%;
+}
+
+.title {
+  margin-top:0;
+  margin-bottom:0;
+  text-align: center;
+  font-size: 70pt;
+  top: 75pt;
+  color: purple;
+}
+
+p {
+  text-align: center;
+  padding-bottom:20px;
+}
+
+.pic {
+  text-align:center;
+}
+
+.slideshow {
+  position: relative;
+  margin: auto;
+  max-width: 1000px;
+  max-height: 1000px;
+  top: 15pt;
+}
+
+.next {
+  cursor: pointer;
+  position:absolute;
+  bottom:0;
+  right:0;
+  color: white;
+  background-color:black;
+}
+
+.back {
+  cursor: pointer;
+  position:absolute;
+  bottom:0;
+  left:0;
+  color: black;
+  background-color:white;
+}

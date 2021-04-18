@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link href= "style.css" rel = "stylesheet">
+</head>
+
+<body>
+    <p id="manipulation"> Change the Background and Border color! </p>
+<center>
+    
+<a href = "https://www.rapidtables.com/web/color/RGB_Color.html" target="_blank"> Link to RGB Color Codes </a>
+
+<div>
+<h2 class="bord" > border color values (00-FF or 0-255) </h2>
+Red Value:
+    <br>
+    <label for="redBorder"></label>
+    <input id="redBorder" type="text">
+    <br>
+Green Value:
+    <br>
+    <label for="greenBorder"></label>
+    <input id="greenBorder" type="text">
+    <br>
+Blue Value:
+    <br>
+    <label for="blueBorder"></label>
+    <input id="blueBorder" type="text">
+    <br><br>
+
+<h2 class="back" > background color values (00-FF or 0-255) </h2>
+Red Value:
+    <br>
+    <label for="redBackground"></label>
+    <input id="redBackground" type="text">
+    <br>
+Green Value:
+    <br>
+    <label for="greenBackground"></label>
+    <input id="greenBackground" type="text">
+    <br>
+Blue Value:
+    <br>
+    <label for="blueBackground">
+    </label><input id="blueBackground" type="text">
+    <br><br>
+</div>
+
+<button id="manipulate" onclick=manipulate()>Change Colors</button>
+
+</center>
+</body>
+
+<script src="manipulate.js"></script>
+</html>

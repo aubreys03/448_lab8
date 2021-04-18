@@ -1,0 +1,43 @@
+html * {
+    font-size: 15pt;
+    font-family: arial;
+}
+
+body {
+    background-color: rgb(224,224,224);
+}
+
+p {
+    background-color: rgb(255,204,255);
+    text-align:center;
+    border: 3px solid rgb(204,255,204);
+    padding: 5px;
+}
+
+h2.back {
+    background-image: linear-gradient(to left,orange,rgb(51,153,255),red,green,pink,rgb(204,204,204),yellow);
+    width:400px;
+    color:black;
+}
+
+h2.bord {
+    border-style: solid;
+    border-color:black;
+    width:350px;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: blue;
+}
